@@ -3,7 +3,7 @@ import './Banner.css';
 
 const Banner = () => (
   <div className="banner text-center d-flex align-items-center justify-content-center">
-    <p className="m-0 toBottom">Click on an image to earn points, but don't click on any more than once!</p>
+    <p className="m-0 toBottom">Click each picture only one time to score.</p>
   </div>
 );
 
