@@ -13,8 +13,4 @@
   bottom:0;
 }
 
-@media (min-width: 576px) {
-  .banner {
-    font-size: calc(10px + 14 * (100vw - 320px) / 800);
-  }
-}
+
