@@ -82,7 +82,7 @@ class ClickyGame extends Component {
         score: score,
         highScore: highScore,
         navMsgColor: 'incorrect',
-        navMessage: 'Incorrect guess!',
+        navMessage: 'You Died!',
         allCharacters: shuffled,
         wasClicked: [],
         shake: true
@@ -94,7 +94,7 @@ class ClickyGame extends Component {
       score: score,
       highScore: highScore,
       navMsgColor: 'correct',
-      navMessage: 'You Guessed Correctly!',
+      navMessage: 'Keep Going!',
       allCharacters: shuffled,
       wasClicked: prevState,
       shake: false
